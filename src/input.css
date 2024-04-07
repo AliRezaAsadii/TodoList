@@ -28,6 +28,7 @@
     position: absolute;
     margin: auto;
     background: rgb(31 41 55 / 0.3);
+    @apply dark:bg-white/30 sm:block hidden
 }
 .login-with::before{
     top: 11px;
