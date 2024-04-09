@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch",
-    "node start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.0",
